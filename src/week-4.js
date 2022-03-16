@@ -141,3 +141,20 @@ console.log(str.length)
 var numbers = [1, 2, 3, 4, 5]
 console.log(numbers[0] = 10)
 console.log(numbers)
+
+//non values (missing information)
+var nonvalue
+console.log(nonvalue)
+
+// function nonvalue(x) {
+// return x
+// }
+
+// console.log(nonvalue())
+
+var value = {}
+console.log(typeof value)
+
+//if (value === undefined || value === null
+
+// false is no value, 0 is an empty string, '' is a reserved keyword, NaN is not a number
