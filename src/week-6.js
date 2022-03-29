@@ -21,3 +21,10 @@ console.log(a)
 
 window.alert("Put an alert message here");
 alert("Put an alert message here")
+
+var myName = "Laurence";
+var myCourse = "JavaScript";
+console.log(myName);
+alert("welcome");
+var myAge = 40;
+console.log(myAge);
