@@ -1,3 +1,5 @@
+const { isWindows } = require("nodemon/lib/utils");
+
 <><div>What is your name?
     <input type="text"></input>
     <button>Send</button>
@@ -11,4 +13,11 @@
     console.dir(document)
     console.table({first:"test",val:9});
     console.error("Service Unavailable")
-    
+
+    console.log("hello")
+var a = "hello"
+a
+console.log(a)
+
+window.alert("Put an alert message here");
+alert("Put an alert message here")
