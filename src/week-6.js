@@ -30,5 +30,9 @@ console.log(myName);
 alert("welcome");
 var myAge = 40;
 console.log(myAge);
+/*
+This is a multiple comment line
+that I can add. also called as a secret for web developers
+*/
 
 
