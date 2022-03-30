@@ -1,7 +1,3 @@
-const { isWindows } = require("nodemon/lib/utils");
-
-
-
 //     console.log("Hello World") 
 //     // console.dir(document)
 //     console.table({first:"test",val:9});
