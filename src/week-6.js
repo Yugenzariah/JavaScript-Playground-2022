@@ -30,4 +30,20 @@ that I can add. also called as a secret for web developers
 
 var welcomemessage = ("Glad to have you here")
 console.log(welcomemessage) 
-// I declared the welcome message to be "glad to have you here" 
+// I declared the welcome message to be "glad to have you here"
+
+var message; 
+console.log(message); 
+message = null;
+console.log(message);
+var myLight = false;
+console.log(myLight);
+myLight = true;
+if (myLight){
+    console.log(myLight);
+}
+var score1,score2,score3,score4;
+var a = "Hello"; 
+var b = 10;
+var c = false;
+console.log(a);
