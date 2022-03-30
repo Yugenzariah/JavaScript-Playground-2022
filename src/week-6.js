@@ -42,7 +42,7 @@ myLight = true;
 if (myLight){
     console.log(myLight);
 }
-var score1,score2,score3,score4;
+var score1, score2, score3, score4;
 var a = "Hello"; 
 var b = 10;
 var c = false;
