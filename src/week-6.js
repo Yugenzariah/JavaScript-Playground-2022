@@ -94,15 +94,11 @@
 // console.log(readMessage())
 
 //Function Declaration 
-function outerFunc(){
-    var message = "Goodbye World"
-
-    function innerFunc(){
-        console.log(message)
-    
+function outerFunc() {
+    var msg = "Hello World"
+    function innerFunc() {
+        console.log(msg)
     }
-
-    console.log(innerFunc)
-}
-
-console.log(outerFunc)
+    console.log(innerFunc())
+    }
+    console.log(outerFunc())
