@@ -94,11 +94,119 @@
 // console.log(readMessage())
 
 //Function Declaration 
-function outerFunc() {
-    var msg = "Hello World"
-    function innerFunc() {
-        console.log(msg)
-    }
-    console.log(innerFunc())
-    }
-    console.log(outerFunc())
+// function outerFunc() {
+//     var msg = "Hello World"
+//     function innerFunc() {
+//         console.log(msg)
+//     }
+//     console.log(innerFunc())
+//     }
+//     console.log(outerFunc())
+
+
+//DataType
+/*
+numbers
+boolean
+strings
+objects
+*/
+
+//let a = 1 // a number DataType
+//let b = "Hello" // b is a string DataType
+//let c = true // c is a boolean DataType
+//let d; // d is undefined DataType 
+
+// let sum = 1 + 1 // note: Do not use strings on numbers  
+// console.log(sum)
+
+// let test = 100 / "2" 
+// console.log(test)
+
+// const value1 = '5';
+// const value2 = 9;
+// let sum = Number(value1) + value2;
+// console.log(sum);
+
+// let output = `The sum of value1 and value2 is ${sum}`
+// console.log(output);
+
+// let alphabet = "4"
+// console.log(Number(alphabet))
+
+// let str = "Keith Cayatoc"
+// console.log(str)
+// let str1 = "NMIT"
+// console.log(str1)
+
+// let fullStr = str + " " + str1
+// console.log(fullStr) 
+
+// let newStr = `Hello to my new string! My name is ${str} and I study at ${str1}`
+// console.log(newStr)
+
+//Boolean only two keywords which is true and false
+
+// let bol = true
+// console.log(bol)
+
+// console.log( 5 > 3) 
+//>= or <= or ==  
+// let test = ["Hello", "Keith", 07, 2002] // Array DataType note: Index arrays always start with 0
+// //console.log(test[2])
+
+// for(i=0; i<test.length; i++) {
+//  console.log(test[i])
+// }
+
+// Object DataType
+
+let abc = {
+    first: "a",
+    second: "b",
+    third: "c",
+}
+
+let weather = {
+    sunny: "hot",
+    cloudy: "mild",
+    stormy: "wet",
+    hurricane: "wish you were somewhere else",
+    snowy: "freezing"
+}
+
+var Num = 1000000
+var xyz = "Software Development"
+let firstName = "Keith" 
+let Keith = true
+var Num2 = 3.142 
+console.log(abc[2])
+let newStr2 = `when there is a hurricane you ${weather.hurricane}`
+console.log(newStr2)
+
+/*what is a function?: A function is a sub program that can be called by code external to the function.
+Like the program itself the function is composed of a sequence of statements called the function body values can be passed to a function 
+and the function will return a value */ 
+
+function div(num1, num2){
+    return num1/num2
+}
+
+console.log(div(6, 3))
+
+// function sums (num1, num2, num3, num4) {
+//     return num1 + num2 + num3 + num4
+// }
+// let num1 = 1
+// let num2 = 2
+// let num3 = 3
+// let num4 = 4 
+// let newSum = `The sum of ${num1} ${num2} ${num3} ${num4} = ${sums}`
+// console.log(newSum) 
+
+function fourNumbers(num1, num2, num3, num4) { 
+ let result = num1 + num2 + num3 + num4 
+ return `the sum of 4 numbers is ${result}`
+}
+
+console.log(fourNumbers(1, 2, 3, 4))
