@@ -4,7 +4,7 @@
   "description": "",
   "main": "src",
   "scripts": {
-    "dev" :"nodemon ./src/week-6.js",
+    "dev" :"nodemon ./src/week-7.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
