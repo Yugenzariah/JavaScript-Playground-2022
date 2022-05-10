@@ -39,3 +39,4 @@ function arrCommon(arr, arr2) {
 }
 console.log(arrCommon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [1, 3, 5, 7, 8, 9, 10]))
 // returns [1, 3, 5, 7, 8, 9, 10] 
+
